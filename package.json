@@ -1,0 +1,29 @@
+{
+  "name": "opencode-messaging-plugin",
+  "version": "0.1.0",
+  "description": "Lets OpenCode v2 sessions message each other",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hokfei/opencode-messaging-plugin.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hokfei/opencode-messaging-plugin/issues"
+  },
+  "homepage": "https://github.com/hokfei/opencode-messaging-plugin#readme",
+  "dependencies": {
+    "@opencode/plugin": "^2.0.28"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
